@@ -111,6 +111,33 @@ NOTE: Check the TestCase transaction log after the execution of the test to view
           <con:entry environmentId="c7173b3a-fee4-45c8-906c-55deaef4eb0d">
             <con:authProfile>Inherit From Parent</con:authProfile>
           </con:entry>
+          <con:entry environmentId="465751bc-fad4-45ee-99a6-dd1f8baa1055">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="55a09d9a-f9ba-4cd6-9b11-1ce27dff972a">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="d16b8aa4-9be9-412d-a09a-7ba67ea06431">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="779b6bd5-8115-4eff-bffb-45ca86ebad3e">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="dbdfa8fb-8e5b-4d59-8a9f-b825ddc1d546">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="052a4eca-e49f-4dca-8730-8d7cb2d73868">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="6ba05197-205e-4d68-a8ef-5fac1b529196">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="69520d91-320a-4256-9cba-8d5f9aadf872">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="dde7d82f-de56-4dbc-9d4b-74be99d47c84">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
         </con:environmentSpec>
       </con:restRequest>
     </con:config>
@@ -137,7 +164,7 @@ NOTE: Check the TestCase transaction log after the execution of the test to view
         </con:credentials>
         <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
         <con:parameters>
-          <entry key="sessionid" value="${Login#Response#$['sessionid']}" xmlns="http://eviware.com/soapui/config"/>
+          <con:entry key="sessionid" value="${Login#Response#$['sessionid']}"/>
         </con:parameters>
         <con:parameterOrder>
           <con:entry>sessionid</con:entry>
@@ -168,6 +195,33 @@ NOTE: Check the TestCase transaction log after the execution of the test to view
             <con:authProfile>Inherit From Parent</con:authProfile>
           </con:entry>
           <con:entry environmentId="c7173b3a-fee4-45c8-906c-55deaef4eb0d">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="465751bc-fad4-45ee-99a6-dd1f8baa1055">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="55a09d9a-f9ba-4cd6-9b11-1ce27dff972a">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="d16b8aa4-9be9-412d-a09a-7ba67ea06431">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="779b6bd5-8115-4eff-bffb-45ca86ebad3e">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="dbdfa8fb-8e5b-4d59-8a9f-b825ddc1d546">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="052a4eca-e49f-4dca-8730-8d7cb2d73868">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="6ba05197-205e-4d68-a8ef-5fac1b529196">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="69520d91-320a-4256-9cba-8d5f9aadf872">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="dde7d82f-de56-4dbc-9d4b-74be99d47c84">
             <con:authProfile>Inherit From Parent</con:authProfile>
           </con:entry>
         </con:environmentSpec>
@@ -207,4 +261,33 @@ NOTE: Check the TestCase transaction log after the execution of the test to view
     <con:status>NONE</con:status>
     <con:properties/>
   </con:breakPoints>
+  <con:environmentSpec>
+    <con:entry environmentId="465751bc-fad4-45ee-99a6-dd1f8baa1055">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+    <con:entry environmentId="55a09d9a-f9ba-4cd6-9b11-1ce27dff972a">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+    <con:entry environmentId="d16b8aa4-9be9-412d-a09a-7ba67ea06431">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+    <con:entry environmentId="779b6bd5-8115-4eff-bffb-45ca86ebad3e">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+    <con:entry environmentId="dbdfa8fb-8e5b-4d59-8a9f-b825ddc1d546">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+    <con:entry environmentId="052a4eca-e49f-4dca-8730-8d7cb2d73868">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+    <con:entry environmentId="6ba05197-205e-4d68-a8ef-5fac1b529196">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+    <con:entry environmentId="69520d91-320a-4256-9cba-8d5f9aadf872">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+    <con:entry environmentId="dde7d82f-de56-4dbc-9d4b-74be99d47c84">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+  </con:environmentSpec>
 </con:testCase>
