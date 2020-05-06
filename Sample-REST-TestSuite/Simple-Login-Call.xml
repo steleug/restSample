@@ -44,7 +44,7 @@ NOTE: If you would like to run the Login step without as a standalone step pleas
         <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
         <con:jmsPropertyConfig/>
         <con:parameters>
-          <con:entry key="password" value="Login1234321"/>
+          <con:entry key="password" value="Login345"/>
           <con:entry key="username" value="Login"/>
         </con:parameters>
         <con:parameterOrder>
