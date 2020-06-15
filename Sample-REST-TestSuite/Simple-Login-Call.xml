@@ -21,10 +21,10 @@ NOTE: If you would like to run the Login step without as a standalone step pleas
       <action>stop</action>
     </con:config>
   </con:testStep>
-  <con:testStep type="restrequest" name="Login5_second" id="8c4c6e50-238e-4476-80dc-15d7b89fff4f">
+  <con:testStep type="restrequest" name="Login7_second" id="8c4c6e50-238e-4476-80dc-15d7b89fff4f">
     <con:settings/>
     <con:config service="Ecommerce" resourcePath="/login/" methodName="Login" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <con:restRequest name="Login5_second" id="af9f46ad-d5ad-4c3c-bcde-e2f266c3dc2c" mediaType="application/json" postQueryString="false">
+      <con:restRequest name="Login7_second" id="af9f46ad-d5ad-4c3c-bcde-e2f266c3dc2c" mediaType="application/json" postQueryString="false">
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Accept" value="application/json" xmlns="http://eviware.com/soapui/config"/></con:setting>
         </con:settings>
